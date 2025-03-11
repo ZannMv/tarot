@@ -10,11 +10,11 @@ if (
   Object.keys(data.category).includes(params.category)
 ) {
   useSeoMeta({
-    title: `Hamtarot - ${data.category[params.category].title}`,
+    title: `Tarot - ${data.category[params.category].title}`,
   });
 } else {
   useSeoMeta({
-    title: "Hamtarot - ไม่พบหมวดหมู่นี้",
+    title: "Tarot - ไม่พบหมวดหมู่นี้",
   });
 }
 
