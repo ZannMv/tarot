@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "th",
       },
-      title: "Hamtarot",
+      title: "Tarot",
       meta: [
         {
           name: "viewport",
